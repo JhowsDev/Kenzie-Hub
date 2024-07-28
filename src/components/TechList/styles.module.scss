@@ -1,0 +1,9 @@
+.techContainer {
+
+    background-color: var(--grey-600);
+    padding-block: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    border-radius: var(--button-radius);
+    }

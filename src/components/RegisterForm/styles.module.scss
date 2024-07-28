@@ -1,0 +1,96 @@
+.formRegister{
+    width: 90%;
+    max-width: 23.125rem;
+    min-width: 18.75rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+
+    margin: 0 auto;
+    background-color: var(--grey-600);
+    padding-block: 3rem;
+
+    h2{
+        color: var(--grey-0);
+        font-size: var(--font-size-t1);
+        font-weight: var(--font-weight-bold);
+    }
+
+    p{
+        font-size: 12px;
+        color: var(--grey-100);
+    }
+
+    div{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        min-width: 90%;
+        max-width: 90%;
+        align-items: center;
+        gap: .625rem;
+
+        label{
+            color: var(--grey-0);
+            align-self: flex-start;
+            font-size: 12px;
+        }
+
+        input {
+            box-sizing: border-box;
+            width: 90%;
+            min-width: 100%;
+            height: 3.125rem;
+            background-color: var(--grey-300);
+            border-radius: var(--button-radius);
+            border: 1px solid var(--grey-0);
+            padding-inline: 1rem;
+            color: var(--grey-0);
+            font-size: var(--font-size-t2);
+        }
+
+        
+
+        select{
+            box-sizing: border-box;
+            width: 90%;
+            min-width: 100%;
+            height: 3.125rem;
+            background-color: var(--grey-300);
+            border-radius: var(--button-radius);
+            border: 1px solid var(--grey-0);
+            color: var(--grey-0);
+            font-size: var(--font-size-t2);
+            padding-inline: 1rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            option {
+                color: var(--grey-0);
+            }
+        }
+
+        
+        p{
+            color: var(--negative);
+            align-self: flex-start;
+        }
+    }
+
+    .registerButton{
+        height: 48px;
+        border-radius: var(--button-radius);
+        background-color: var(--color-primary);
+        color: var(--grey-0);
+        width: 90%;
+        cursor: pointer;
+        border: none;
+    }
+
+    .registerButton:hover{
+        background-color: var(--color-primary-Focus);
+    }
+}

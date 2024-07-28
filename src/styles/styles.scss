@@ -1,0 +1,8 @@
+@import "reset.scss", "globalStyles.scss", "button.scss", "typography.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--grey-900);
+}

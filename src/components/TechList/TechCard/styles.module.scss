@@ -1,0 +1,70 @@
+    .techContainer{
+        background-color: var(--grey-900);
+        box-sizing: border-box;
+        min-width: 95%;
+        max-width: 95%;
+        padding-inline: 3%;
+        margin: 0 auto;
+        height: 3.125rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: var(--button-radius);
+
+        .titleDiv{
+            display: flex;
+            align-items: center;
+            padding-right: 0.5rem;
+
+            width: 100%;
+            p{
+                font-size: .75rem;
+                color: var(--grey-100);
+            }
+            
+            h3{
+                font-size: .875rem;
+                font-weight: var(--font-weight-bold);
+                color: #FFFFFF;
+                justify-self: flex-start;
+            }
+        }
+        
+        .menuDiv{
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+
+            button {
+                background-color: transparent;
+            }
+
+            button:hover{
+                background-color: transparent;
+            }
+        }
+    }
+
+    @media(max-width:426px) {
+        .techContainer{
+            height: 4.6875rem;
+
+            .titleDiv{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-around;
+                height: 80%;
+            }
+
+            .menuDiv{
+                height: 80%;
+                align-items: flex-end;
+                justify-content: flex-end;
+
+                button{
+                    height: 32px;
+                }
+            }
+        }
+    }

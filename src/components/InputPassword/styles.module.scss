@@ -1,0 +1,17 @@
+.input__box {
+    .input__grid {
+        position: relative;
+        min-width: 100%;
+    }
+
+    button {
+        position: absolute;
+        top: 1rem;
+        right: 0.5rem;
+        cursor: pointer;
+
+        background-color: transparent;
+        border: none;
+        color: red;
+    }
+}

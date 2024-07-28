@@ -1,0 +1,32 @@
+.container {
+    margin-block: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+
+    header{
+        width: 90%;
+        max-width: 23.125rem;
+        min-width: 18.75rem;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            width: 4.25rem;
+            height: 2.5rem;
+
+            color: var(--grey-0);
+            background-color: var(--grey-600);
+            border-radius: var(--button-radius);
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: var(--grey-300);
+        }
+    }
+}
